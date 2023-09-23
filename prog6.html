@@ -1,0 +1,24 @@
+<!doctype html> 
+<head> 
+<script>function validate() 
+{ 
+if(document.getElementById("username").value.length==0 || 
+document.getElementById("password").value.length==0) 
+alert("False"); 
+else 
+alert("True"); 
+} 
+</script> 
+</head> 
+<body> 
+<form> 
+<div> 
+Username: 
+<input type="text" id="username" /> 
+Password: 
+<input type="password" id="password" /> 
+<input type="submit" onclick="validate();" /> 
+</div> 
+</form> 
+</body> 
+</html>
